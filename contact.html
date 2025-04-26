@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Atlanta Breeze | Contact</title>
+        <meta name="author" content="Alexcia Edwards">
+        <meta name="description" content="This is the contact page for Atlanta Breeze">
+
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://use.typekit.net/zik6jpt.css">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <header>
+        <h1>Atlanta Breeze</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Index page</a></li>
+                <li><a href="#">accommodations</a></li>
+                <li><a href="contact.html">Contact page</a></li>
+            </ul>
+        </nav>
+
+        <img src="images/swiss-valley.jpg" alt="image of the swiss Valley">
+
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+        <img src="images/swiss-peak.jpg" alt="image of the swiss-peak"
+        
+        <form action="#" method="post">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+        
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+        
+            <fieldset>
+                <legend>Preferred Contact Method:</legend>
+                
+                <input type="radio" id="contactEmail" name="contactMethod" value="email" required>
+                <label for="contactEmail">Email</label>
+                
+                <input type="radio" id="contactPhone" name="contactMethod" value="phone" required>
+                <label for="contactPhone">Phone</label>
+            </fieldset>
+        
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" required></textarea>
+        
+            <button type="submit">Submit</button>
+        </form>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2023 - Atlanta Breeze</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
